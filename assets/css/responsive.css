@@ -1,0 +1,273 @@
+/* Media Queries */
+/* Below Media Queries are used for Desktop First Design */
+/* XXL Screens */
+@media (max-width: 1400px) {
+    h3 {
+        font-size: 60px;
+    }
+
+    .hero-section {
+        .hero-content {
+            h2 {
+                font-size: 170px;
+            }
+
+            &>div {
+                &>h1 {
+                    font-size: 138px;
+                }
+
+                &>a {
+                    top: 48%;
+                }
+            }
+
+            p {
+                top: 30px;
+            }
+        }
+    }
+}
+
+/* XL Screens */
+@media (max-width: 1200px) {
+    h3 {
+        font-size: 48px;
+    }
+
+    .hero-section {
+        .hero-content {
+            h2 {
+                font-size: 150px;
+                margin: -40px 0 -50px;
+            }
+
+            &>div {
+                &>h1 {
+                    font-size: 115px;
+                    line-height: 130px;
+                }
+
+                &>a {
+                    top: 47%;
+                }
+            }
+
+            p {
+                top: 20px;
+                width: 390px;
+                font-size: 18px;
+                line-height: 28px;
+            }
+        }
+
+        .hero-faqs {
+            ul {
+                li {
+                    .ques {
+                        i {
+                            width: 64px;
+                            font-size: 28px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Large Screens */
+@media (max-width: 992px) {
+    h3 {
+        font-size: 40px;
+    }
+
+    p.big-text {
+        font-size: 22px;
+        line-height: 38px;
+    }
+
+    .hero-section {
+        .hero-content {
+            h2 {
+                font-size: 120px;
+                margin: -40px 0 -30px;
+            }
+
+            &>div {
+                &>h1 {
+                    font-size: 75px;
+                    line-height: 90px;
+                }
+
+                &>a {
+                    top: 37%;
+                    right: 15px;
+                    transform: scale(0.7);
+                }
+            }
+
+            p {
+                position: static;
+                width: 100%;
+                margin: 20px 0 10px;
+            }
+        }
+
+        .hero-faqs {
+            ul {
+                li {
+                    .ques {
+                        i {
+                            width: 56px;
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Medium Screens */
+@media (max-width: 768px) {
+    h3 {
+        font-size: 34px;
+    }
+
+    p.big-text {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .hero-section {
+        .hero-content {
+            h2 {
+                font-size: 100px;
+            }
+
+            &>div {
+                &>a {
+                    top: 300px;
+                }
+            }
+        }
+
+        .hero-faqs {
+            ul {
+                li {
+                    margin: 20px 0 40px 0;
+
+                    .ques {
+                        i {
+                            width: 44px;
+                            font-size: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Small Screens */
+@media (max-width: 575px) {
+    h3 {
+        font-size: 28px;
+    }
+
+    .hero-section {
+        .hero-content {
+            &>div {
+                &>a {
+                    right: -10px;
+                }
+            }
+        }
+
+        .hero-faqs {
+            ul {
+                li {
+                    .ques {
+                        i {
+                            width: 38px;
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* --- Adjusting Hero Section --- */
+@media (max-width: 450px) {
+    h3 {
+        font-size: 26px;
+    }
+
+    .hero-section {
+        .hero-content {
+            h2 {
+                font-size: 75px;
+                margin: -40px 0 -20px;
+            }
+
+            &>div {
+                &>h1 {
+                    font-size: 54px;
+                    line-height: 70px;
+                    width: 330px;
+                }
+
+                &>a {
+                    top: 217px;
+                    right: unset;
+                    left: 180px;
+                }
+            }
+        }
+    }
+}
+
+/* --- Adjusting Hero Section --- */
+@media (max-width: 450px) {
+    .hero-section {
+        .hero-content {
+            &>div {
+                &>a {
+                    right: -30px;
+                    left: unset;
+                }
+            }
+        }
+    }
+}
+
+/* --- Adjusting Hero Section --- */
+@media (max-width: 400px) {
+    .hero-section {
+        .hero-content {
+            h2 {
+                font-size: 66px;
+            }
+
+            &>div {
+                &>h1 {
+                    font-size: 46px;
+                    line-height: 58px;
+                    width: 290px;
+                }
+
+                &>a {
+                    top: 175px;
+                }
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
+    }
+}

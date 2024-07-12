@@ -1,0 +1,30 @@
+/* Inter Google Font CDN */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Pinyon+Script&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* Apply a custom font family to the entire body */
+body {
+    font-family: "Inter", sans-serif;
+}
+
+/* Apply different font families to specific elements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* Font Families Reusable Classes */
+.ff-inter {
+    font-family: "Inter", sans-serif;
+}
+
+.ff-pinyon {
+    font-family: "Pinyon Script", cursive;
+}
+
+.ff-jakarta {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
