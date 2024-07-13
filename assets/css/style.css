@@ -20,12 +20,27 @@ h3 {
     line-height: normal;
     letter-spacing: -0.02em;
     margin: 0;
+
+    .ff-pinyon {
+        font-size: 80px;
+        font-weight: 400;
+        line-height: normal;
+    }
 }
 
 p.big-text {
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
+}
+
+.slash-section {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+    max-width: max-content;
+    color: #595959;
 }
 
 /* Reusable Classes */
@@ -133,7 +148,7 @@ a.arrow-btn-dark {
     /* Hero Video */
     .hero-video {
         video {
-            border-radius: 6vw;
+            border-radius: 100px;
         }
     }
 
@@ -146,6 +161,7 @@ a.arrow-btn-dark {
 
                 .ques {
                     cursor: pointer;
+                    user-select: none;
 
                     i {
                         width: 72px;

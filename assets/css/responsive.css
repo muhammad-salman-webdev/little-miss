@@ -61,6 +61,12 @@
             }
         }
 
+        .hero-video {
+            video {
+                border-radius: 6vw;
+            }
+        }
+
         .hero-faqs {
             ul {
                 li {
