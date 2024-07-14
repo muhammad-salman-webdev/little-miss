@@ -28,10 +28,29 @@ h3 {
     }
 }
 
+h4 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 56px;
+}
+
+.primary-br {
+    border-radius: 50px;
+}
+
 p.big-text {
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
+}
+
+a.link-dark {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    line-height: 24px !important;
+    color: #222222 !important;
+    text-decoration: underline;
+    text-underline-offset: 5px
 }
 
 .slash-section {
@@ -40,7 +59,16 @@ p.big-text {
     line-height: 24px;
     text-align: right;
     max-width: max-content;
+    min-width: max-content;
     color: #595959;
+}
+
+.mn-w-mx {
+    min-width: max-content !important;
+}
+
+.slash-section.light {
+    color: #BFBFBF;
 }
 
 /* Reusable Classes */
@@ -54,10 +82,22 @@ p.big-text {
     border: 1px solid #FFFFFF !important;
     background: #000000 !important;
 
-    &:hover {
+    &:not(.no-hover):hover {
         border-color: #000000 !important;
         color: #000000 !important;
         background: #ffffff !important;
+    }
+}
+
+.btn.btn-light {
+    background: #ffffff !important;
+    border-color: #000000 !important;
+    color: #000000 !important;
+
+    &:not(.no-hover):hover {
+        color: #ffffff !important;
+        border: 1px solid #FFFFFF !important;
+        background: #000000 !important;
     }
 }
 
@@ -98,6 +138,16 @@ a.arrow-btn-dark {
         background: white;
         color: #222222;
     }
+}
+
+.btn.btn-circle {
+    width: 40px;
+    aspect-ratio: 1/1;
+    display: grid;
+    align-items: center;
+    padding: 0 !important;
+    font-size: 20px;
+    line-height: normal !important;
 }
 
 /* Regular CSS */
@@ -201,6 +251,33 @@ a.arrow-btn-dark {
                         display: grid;
                         grid-template-rows: 1fr;
                     }
+                }
+            }
+        }
+    }
+}
+
+section.brands-section {
+    .col {
+        min-width: 125px;
+        max-width: 200px;
+
+        img {
+            max-width: 125px;
+        }
+    }
+}
+
+section.works-section {
+    .filter-items-container {
+        .col {
+            >div {
+                padding: 32px;
+                background: #191919;
+
+                >div>div {
+                    bottom: 25px;
+                    right: 25px;
                 }
             }
         }

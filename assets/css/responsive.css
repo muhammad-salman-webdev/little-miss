@@ -4,6 +4,11 @@
 @media (max-width: 1400px) {
     h3 {
         font-size: 60px;
+
+        .ff-pinyon {
+            font-size: 74px;
+            line-height: 84px;
+        }
     }
 
     .hero-section {
@@ -33,6 +38,15 @@
 @media (max-width: 1200px) {
     h3 {
         font-size: 48px;
+
+        .ff-pinyon {
+            font-size: 66px;
+            line-height: 78px;
+        }
+    }
+
+    h4 {
+        font-size: 42px;
     }
 
     .hero-section {
@@ -84,8 +98,21 @@
 
 /* Large Screens */
 @media (max-width: 992px) {
+    .primary-br {
+        border-radius: 32px;
+    }
+
     h3 {
         font-size: 40px;
+
+        .ff-pinyon {
+            font-size: 58px;
+            line-height: 68px;
+        }
+    }
+
+    h4 {
+        font-size: 36px;
     }
 
     p.big-text {
@@ -137,8 +164,22 @@
 
 /* Medium Screens */
 @media (max-width: 768px) {
+    .primary-br {
+        border-radius: 28px;
+    }
+
     h3 {
         font-size: 34px;
+
+        .ff-pinyon {
+            font-size: 52px;
+            line-height: 60px;
+        }
+    }
+
+    h4 {
+        font-size: 30px;
+        line-height: 38px;
     }
 
     p.big-text {
@@ -174,12 +215,46 @@
             }
         }
     }
+
+    section.works-section {
+        .filter-items-container {
+            .col {
+                >div {
+                    padding: 24px;
+                }
+            }
+        }
+    }
 }
 
 /* Small Screens */
 @media (max-width: 575px) {
+
+    /* Reusable Classes */
+    .primary-br {
+        border-radius: 24px;
+    }
+
+    .btn {
+        padding: 6px 28px !important;
+    }
+
+    .primary-br {
+        border-radius: 40px;
+    }
+
     h3 {
         font-size: 28px;
+
+        .ff-pinyon {
+            font-size: 46px;
+            line-height: 52px;
+        }
+    }
+
+    h4 {
+        font-size: 24px;
+        line-height: 32px;
     }
 
     .hero-section {
@@ -204,12 +279,32 @@
             }
         }
     }
+
+    section.works-section {
+        .filter-items-container {
+            .col {
+                >div {
+                    padding: 20px;
+
+                    >div>div {
+                        bottom: 18px;
+                        right: 18px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 /* --- Adjusting Hero Section --- */
 @media (max-width: 450px) {
     h3 {
         font-size: 26px;
+
+        .ff-pinyon {
+            font-size: 40px;
+            line-height: 48px;
+        }
     }
 
     .hero-section {
