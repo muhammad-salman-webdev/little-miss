@@ -51,3 +51,32 @@ allFilterBtns.forEach((btn, i) => {
     btn.classList.add("btn-light");
   });
 });
+
+// Making Slider Work
+document.addEventListener("DOMContentLoaded", function () {
+  var splide = new Splide(".splide", {
+    arrows: false,
+    perPage: 1,
+    type: "loop",
+    perMove: 1,
+    pagination: false,
+    autoplay: true,
+    interval: 5000,
+  });
+  splide.mount();
+
+  // Add event listeners to custom buttons
+  document
+    .querySelector(".testimonial_splider_btn > button:has(.fa-arrow-left)")
+    .addEventListener("click", function () {
+      splide.go("<");
+      makingCardsRotated();
+    });
+
+  document
+    .querySelector(".testimonial_splider_btn > button:has(.fa-arrow-right)")
+    .addEventListener("click", function () {
+      splide.go(">");
+      makingCardsRotated();
+    });
+});

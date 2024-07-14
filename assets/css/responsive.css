@@ -32,6 +32,17 @@
             }
         }
     }
+
+    .testimonial-section {
+        & li.splide__slide {
+            &>div {
+                h4 {
+                    font-size: 52px;
+                    line-height: 62px;
+                }
+            }
+        }
+    }
 }
 
 /* XL Screens */
@@ -90,6 +101,26 @@
                             font-size: 28px;
                         }
                     }
+                }
+            }
+        }
+    }
+
+    .testimonial-section {
+        .slash-section {
+            position: unset;
+        }
+
+        .btns {
+            position: unset;
+            bottom: 0;
+        }
+
+        & li.splide__slide {
+            &>div {
+                h4 {
+                    font-size: 46px;
+                    line-height: 58px;
                 }
             }
         }
@@ -160,6 +191,22 @@
             }
         }
     }
+
+    .testimonial-section {
+        & li.splide__slide {
+            &>div {
+                h4 {
+                    font-size: 42px;
+                    line-height: 52px;
+                }
+            }
+        }
+    }
+
+    .hero-section,
+    .works-section {
+        border-radius: 0 0 40px 40px;
+    }
 }
 
 /* Medium Screens */
@@ -224,6 +271,22 @@
                 }
             }
         }
+    }
+
+    .testimonial-section {
+        & li.splide__slide {
+            &>div {
+                h4 {
+                    font-size: 34px;
+                    line-height: 48px;
+                }
+            }
+        }
+    }
+
+    .hero-section,
+    .works-section {
+        border-radius: 0 0 30px 30px;
     }
 }
 
@@ -294,6 +357,17 @@
             }
         }
     }
+
+    .testimonial-section {
+        & li.splide__slide {
+            &>div {
+                h4 {
+                    font-size: 30px;
+                    line-height: 44px;
+                }
+            }
+        }
+    }
 }
 
 /* --- Adjusting Hero Section --- */
@@ -325,6 +399,17 @@
                     top: 217px;
                     right: unset;
                     left: 180px;
+                }
+            }
+        }
+    }
+
+    .testimonial-section {
+        & li.splide__slide {
+            &>div {
+                h4 {
+                    font-size: 28px;
+                    line-height: 40px;
                 }
             }
         }
