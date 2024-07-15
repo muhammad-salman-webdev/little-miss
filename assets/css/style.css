@@ -180,6 +180,10 @@ a.arrow-btn-dark {
     border-radius: 0 0 50px 50px;
 }
 
+.footer-section {
+    border-radius: 50px 50px 0 0;
+}
+
 /* Regular CSS */
 .hero-section {
 
@@ -361,6 +365,100 @@ section.works-section {
                     margin: -65px 0 -90px;
                 }
             }
+        }
+    }
+}
+
+.footer-section {
+    .footer-links-container {
+        .row>div {
+            p {
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 30px;
+                color: white;
+                text-transform: uppercase;
+            }
+
+            ul li {
+                margin: 10px 0;
+
+                a {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    color: #BFBFBF;
+                    text-decoration: none;
+                    text-underline-offset: 4px;
+                    text-transform: uppercase;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        .form {
+            &>div {
+                background: #191919;
+                border-radius: 20px;
+                padding: 24px;
+
+                &>span {
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 30px;
+                    color: white;
+                    margin: 0px 0 -10px 0;
+                }
+
+                form {
+                    display: flex;
+                    margin-top: 30px;
+
+                    input {
+                        width: 100%;
+                        background: transparent;
+                        border: none;
+                        border-bottom: 1px solid #30302F;
+                        color: #c9c9c9;
+                        box-shadow: none;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        position: relative;
+                        right: 2px;
+
+                        &::placeholder {
+                            color: #8C8C8C;
+                        }
+                    }
+
+                    button {
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 24px;
+                        color: #222222;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        &>h1 {
+            font-size: 132px;
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .copyright {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #FFFFFF;
+            text-transform: uppercase;
         }
     }
 }
