@@ -482,10 +482,7 @@
             }
         }
     }
-}
 
-/* --- Adjusting Hero Section --- */
-@media (max-width: 450px) {
     .hero-section {
         .hero-content {
             &>div {
