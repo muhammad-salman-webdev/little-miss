@@ -126,6 +126,10 @@
                 }
             }
         }
+
+        .splide__pagination {
+            bottom: -50px;
+        }
     }
 
     .footer-section {
@@ -310,6 +314,16 @@
                     font-size: 34px;
                     line-height: 48px;
                 }
+            }
+        }
+
+        .splide__pagination {
+            bottom: -65px;
+
+            .splide__pagination__page {
+                width: 40px;
+                height: 40px;
+                margin: 0 5px;
             }
         }
     }

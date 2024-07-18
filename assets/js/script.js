@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
     perPage: 1,
     type: "loop",
     perMove: 1,
-    pagination: false,
+    pagination: true,
     autoplay: true,
     interval: 5000,
   });
